@@ -1,0 +1,6 @@
+@AgentIA_HostAddress = http://localhost:5112
+
+GET {{AgentIA_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
