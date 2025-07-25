@@ -32,7 +32,17 @@ OpenAIPromptExecutionSettings openAIPromptExecutionSettings = new()
 {
     FunctionChoiceBehavior = FunctionChoiceBehavior.Auto()
 };
+//Tutorial 
 
+Console.ForegroundColor = ConsoleColor.Green;
+Console.WriteLine("Make sure you specify the absolute path of directories");
+Console.WriteLine("Here is a list of examples of commands");
+Console.WriteLine("Get files name of directory");
+Console.WriteLine("Get the number of files in a directory");
+Console.WriteLine("Move or Copy files from one directory to another");
+Console.WriteLine("get files in directory containing a certain content");
+Console.WriteLine("search files by name");
+Console.ResetColor();
 
 
 // Create a history store the conversation

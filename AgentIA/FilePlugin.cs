@@ -16,7 +16,7 @@ namespace AgentIA
 
         public FilePlugin() { }
 
-        [KernelFunction("getFilesInDirectory")]
+        [KernelFunction("getFilesNameInDirectory")]
         [Description("Gets the list of files in directory")]
         public IEnumerable<string> GetFiles(string directorypath)
         {
